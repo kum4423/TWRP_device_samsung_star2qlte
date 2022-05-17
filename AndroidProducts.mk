@@ -16,3 +16,5 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/omni_star2qlte.mk
+
+COMMON_LUNCH_CHOICES := omni_star2qlte-eng
