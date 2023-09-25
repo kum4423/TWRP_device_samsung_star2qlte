@@ -114,5 +114,6 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_MTP_DEVICE := /dev/mtp_usb
 TW_USE_TOOLBOX := true
+TW_BACKUP_EXCLUSIONS := /data/fonts
 TARGET_USES_MKE2FS := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
